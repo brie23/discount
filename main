@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$apple = 10;
+$orange = 15;
+$watermelon = 7;
+$grapes = 5;
+$pears = 6;
+$peaches = 8;
+$pineapple = 12;
+$plums = 3;
+$strawberries = 4;
+$blueberries = 2;
+
+$subtotal = ($peaches + $plums);
+
+$job = "Retail";
+
+if ($job == "Teacher") {
+	echo "You get a 20% discount which comes out to $";
+    echo $subtotal * 0.2;
+} elseif ($job == "Emergency") {
+	echo "You get a 25% discount which comes out to $";
+    echo $subtotal * 0.25;
+} else {
+	echo "No discount!";
+}
+?>
+ 
+</body>
+</html>
